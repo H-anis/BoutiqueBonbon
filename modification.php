@@ -1,7 +1,7 @@
 <?php
   require "config.php" ;
   $bdd=connect() ;
-  if(isset($_POST['prix']))
+  if(isset($_POST['pri']))
   {
   $name = $_GET['name'];
   $prix = $_POST['prix'];
